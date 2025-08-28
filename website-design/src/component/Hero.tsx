@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <div className="bg-gradient-to-r from-indigo-500 to-violet-700 text-white text-center items-center px-3 mt-[64px]">
-      <div>
-        <div className="font-bold text-3xl mb-3  ">
+    <div className="bg-gradient-to-r from-indigo-500 to-violet-700 text-white text-center items-center px-3 mt-[64px] md:mt-[82px] md:block">
+      <div className="pt-20">
+        <div className="font-bold text-3xl mb-3 md:text-5xl ">
           <h1 className="">Build Amazing</h1>
           <h1 className="text-amber-300">Degitial Experience</h1>
         </div>
