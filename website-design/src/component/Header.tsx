@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <div className="flex justify-between items-center  px-3 fixed w-full top-0 md:flex md:justify-around   ">
-      <h1 className="font-bold size-md md:text-3xl md:pr-10 p-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+    <div className="flex justify-between items-center  px-3 fixed w-full top-0 md:flex md:justify-around bg-white md:border-b-5 md:border-white z-100 ">
+      <h1 className="font-bold text-xl md:text-3xl md:pr-10 pl-0 p-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
         WebCambodia
       </h1>
 
