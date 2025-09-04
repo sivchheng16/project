@@ -9,7 +9,7 @@ import Portfolio from "./component/Portfolio.js";
 import Footer from "./component/Footer.js";
 
 createRoot(document.getElementById("root")!).render(
-  <div>
+  <div className="">
     {/* <Nav /> */}
     <Header />
     <Hero />
