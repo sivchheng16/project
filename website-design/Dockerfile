@@ -5,12 +5,10 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Copy package.json and package-lock.json (if available)
-COPY . .
+COPY package*.json ./
 
-
-
-# Install dependencies
-RUN npm install --production --legacy-peer-deps || yarn install --production || pnpm install --prod
+# Install all dependencies (including dev dependencies)
+RUN npm install --legacy-peer-deps || yarn install || pnpm install
 
 # Copy the rest of the app
 COPY . .
