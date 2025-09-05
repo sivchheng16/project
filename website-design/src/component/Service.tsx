@@ -13,11 +13,13 @@ function Service() {
         </div>
 
         {/* card */}
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
           {/* 1 */}
-          <div className=" py-15 px-15 bg-white  border border-gray-300 shadow-2xl rounded-2xl hover:-translate-y-3 hover:duration-400 hover:shadow-2xl hover:shadow-gray-500">
+          <div className="py-15 px-15 bg-white border border-gray-300 shadow-2xl rounded-2xl hover:-translate-y-3 hover:duration-400 hover:shadow-2xl hover:shadow-gray-500">
             <div className="">
-              <span className="text-5xl lg:pb-10 block lg:text-7xl pl-5">💻</span>
+              <span className="text-5xl lg:pb-10 block lg:text-7xl pl-5">
+                💻
+              </span>
               <h1 className="text-xl font-bold py-7 lg:text-3xl">
                 Web Development
               </h1>
