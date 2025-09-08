@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",], // adjust to your project
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"], // adjust to your project
   theme: {
     extend: {
       keyframes: {
@@ -11,7 +9,7 @@ module.exports = {
         },
       },
       animation: {
-        "slow-bounce": "slowBounce 3s ease-in-out infinite", // 3s = slomo
+        "slow-bounce": "slowBounce 5s ease-in-out infinite", // 3s = slomo
       },
     },
   },
