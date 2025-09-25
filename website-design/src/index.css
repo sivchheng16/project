@@ -3,6 +3,16 @@
 html {
   scroll-behavior: smooth;
 }
+/* headerStyle */
+.blue-btn {
+  @apply hidden  md:flex bg-blue-500 py-2 px-6 rounded-[7px] text-white hover:bg-blue-600 font-bold ml-7 cursor-pointer lg:text-xl lg:px-15 lg:py-6;
+}
+.nav {
+  @apply hover:text-blue-500 w-fit p-1 rounded-[8px];
+}
+.logo {
+  @apply font-bold text-xl md:text-3xl md:pr-5 pl-0 p-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl;
+}
 
 /* hero style */
 @layer components {
@@ -38,3 +48,12 @@ html {
 }
 
 /* hero style */
+.service-icon {
+  @apply text-5xl lg:pb-10 block lg:text-7xl pl-5;
+}
+.service-card {
+  @apply py-15 px-15 bg-white  border border-gray-300 shadow-2xl rounded-2xl hover:-translate-y-3 hover:duration-400 hover:shadow-2xl hover:shadow-gray-500;
+}
+.card-list {
+  @apply list-disc  list-inside text-gray-500 text-sm lg:text-xl py-10;
+}

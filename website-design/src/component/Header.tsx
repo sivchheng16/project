@@ -1,51 +1,31 @@
 export default function Header() {
   return (
     <div className="grid grid-cols-2 px-3 lg:px-0 md:grid-cols-3 lg:grid-cols-3 items-center fixed w-full top-0 md:flex md:justify-around bg-white md:border-b-5 md:border-white z-100 lg:h-25 ">
-      <a
-        className="font-bold text-xl md:text-3xl md:pr-5 pl-0 p-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl"
-        href="/"
-      >
+      <a className="logo" href="/">
         WebCambodia
       </a>
 
       {/* nav md */}
       <div className="hidden  md:flex items-center text-gray-800 lg:text-xl">
         <div className="grid grid-cols-5 md:gab-5 gap-8 lg:gap-18 ">
-          <a
-            href="#hero"
-            className="hover:text-blue-500 w-fit p-1 rounded-[8px]"
-          >
+          <a href="#hero" className="nav">
             Home
           </a>
-          <a
-            href="#about"
-            className="hover:text-blue-500 w-fit p-1 rounded-[8px]"
-          >
+          <a href="#about" className="nav">
             About
           </a>
-          <a
-            href="#service"
-            className="hover:text-blue-500 w-fit p-1 rounded-[8px]"
-          >
+          <a href="#service" className="nav">
             Service
           </a>
-          <a
-            href="#portfolio"
-            className="hover:text-blue-500 w-fit p-1 rounded-[8px]"
-          >
+          <a href="#portfolio" className="nav">
             Portfolio
           </a>
-          <a
-            href="#contact"
-            className="hover:text-blue-500 w-fit p-1 rounded-[8px]"
-          >
+          <a href="#contact" className="nav">
             Contact
           </a>
         </div>
       </div>
-      <button className="hidden  md:flex bg-blue-500 py-2 px-6 rounded-[7px] text-white hover:bg-blue-600 font-nomal ml-7 cursor-pointer lg:text-xl lg:px-15 lg:py-6">
-        Get Start
-      </button>
+      <button className="blue-btn">Get Start</button>
       {/* end nav screen */}
 
       <svg

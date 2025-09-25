@@ -4,9 +4,7 @@ function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-5 pt-5 pb-10  container mx-auto">
         <div className="col-span-2">
           <div className="text-center md:text-start ">
-            <h1 className="font-bold text-3xl pt-7  bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-              WebCambodia
-            </h1>
+            <h1 className="logo">WebCambodia</h1>
             <p className="text-sm p-5 md:py-5 md:pl-0">
               We specialize in creating exceptional digital experiences that
               drive business growth, enhance user engagement, and deliver
@@ -36,7 +34,7 @@ function Footer() {
           <ul>
             <li className="p-2 md:pl-0">
               <a href="#" className="hover:underline hover:text-gray-300">
-                Web Development
+                WebCambodia
               </a>
             </li>
             <li className="p-2 md:pl-0">

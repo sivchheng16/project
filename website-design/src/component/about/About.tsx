@@ -1,3 +1,5 @@
+
+
 function About() {
   return (
     <div
@@ -26,6 +28,7 @@ function About() {
               hundreds of businesses establish their online presence and achieve
               their degitial golds.
             </p>
+
 
             <ul className="md:text-gray-500">
               <li className="flex items-center md:pb-3.5 ">
@@ -119,7 +122,11 @@ function About() {
 
             {/* button md */}
 
-            <button className="hidden md:block bg-blue-500 p-4 text-white px-6 rounded-xl hover:bg-blue-600 mt-6 font-bold hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-gray-500 hover:duration-500">
+            <button
+              className="
+            hidden md:block bg-blue-500 p-4 text-white px-6 rounded-xl hover:bg-blue-600 mt-6 font-bold hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-gray-500 hover:duration-500
+            "
+            >
               Learn More About Us
             </button>
             {/* end button md */}
