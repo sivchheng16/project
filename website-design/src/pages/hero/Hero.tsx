@@ -1,3 +1,4 @@
+import Button from "../../component/Button";
 import Card from "./Card";
 let decriptionHero =
   " We create stunning, hight-performace websites and applications that drive results. Transform your digital presence with our expert design and development services.";
@@ -18,27 +19,28 @@ function Hero() {
           <p className="md:text-2xl lg:text-2xl ">{decriptionHero}</p>
         </div>
         <div className="mt-8 px-4 md:p-10 md:mt-0 md:flex md:justify-center lg:text-xl">
-          <button className="btn1">View Our Work</button>
+          <Button text={"View Our Work"} />
+          {/* <button className="btn1">View Our Work</button> */}
           <button className="btn2">Get Free Quote</button>
         </div>
 
         {/* card */}
         <div className="animate-my-bounce">
           <div className="cards">
-            <Card 
+            <Card
               emoji={"🚀"}
               title={"Lightning Fast"}
-              decription={"Optimized for speed and performance"}
+              text={"Optimized for speed and performance"}
             />
             <Card
               emoji={"☎️"}
               title={"Mobile First"}
-              decription={"Perfect on every device and screen size"}
+              text={"Perfect on every device and screen size"}
             />
             <Card
               emoji={"⚡"}
               title={" Performance"}
-              decription={"Optimized for speed and performance"}
+              text={"Optimized for speed and performance"}
             />
           </div>
         </div>
