@@ -1,4 +1,4 @@
-import Button from "../../component/Button";
+// import Button from "../../component/Button";
 import Card from "./Card";
 let decriptionHero =
   " We create stunning, hight-performace websites and applications that drive results. Transform your digital presence with our expert design and development services.";
@@ -19,8 +19,8 @@ function Hero() {
           <p className="md:text-2xl lg:text-2xl ">{decriptionHero}</p>
         </div>
         <div className="mt-8 px-4 md:p-10 md:mt-0 md:flex md:justify-center lg:text-xl">
-          <Button text={"View Our Work"} />
-          {/* <button className="btn1">View Our Work</button> */}
+          {/* <Button text={"View Our Work"} /> */}
+          <button className="btn1">View Our Work</button>
           <button className="btn2">Get Free Quote</button>
         </div>
 
@@ -28,19 +28,19 @@ function Hero() {
         <div className="animate-my-bounce">
           <div className="cards">
             <Card
-              emoji={"🚀"}
-              title={"Lightning Fast"}
-              text={"Optimized for speed and performance"}
+              emoji="🚀"
+              title="Lightning Fast"
+              text="Optimized for speed and performance"
             />
             <Card
-              emoji={"☎️"}
-              title={"Mobile First"}
-              text={"Perfect on every device and screen size"}
+              emoji="☎️"
+              title="Mobile First"
+              text="Perfect on every device and screen size"
             />
             <Card
-              emoji={"⚡"}
-              title={" Performance"}
-              text={"Optimized for speed and performance"}
+              emoji="⚡"
+              title=" Performance"
+              text="Optimized for speed and performance"
             />
           </div>
         </div>

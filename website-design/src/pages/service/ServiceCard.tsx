@@ -1,4 +1,10 @@
-export default function ServiceCard({ icon, title, dectiption }) {
+export default function ServiceCard({
+  icon,
+  title,
+  dectiption,
+}: {
+  [key: string]: any;
+}) {
   return (
     <div className="">
       <span className="service-icon">{icon}</span>
