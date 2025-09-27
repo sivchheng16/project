@@ -25,7 +25,7 @@ function Hero() {
         {/* card */}
         <div className="animate-my-bounce">
           <div className="cards">
-            <Card
+            <Card 
               emoji={"🚀"}
               title={"Lightning Fast"}
               decription={"Optimized for speed and performance"}
