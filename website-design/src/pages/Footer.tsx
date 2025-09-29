@@ -134,7 +134,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="text-sm">
+        <div className="text-sm bg-red">
           <h2 className="font-bold text-xl text-white p-5 md:pl-0">
             Support & legal
           </h2>
