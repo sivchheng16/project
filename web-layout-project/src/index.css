@@ -1,6 +1,17 @@
 @import "tailwindcss";
 
-:root {
+* {
+  margin: 0 auto;
+}
+.nav {
+  @apply flex text-2xl gap-10 bg-gray-300 items-center h-15;
+}
+
+.height-spacing {
+  @apply py-10;
+}
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -67,4 +78,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
