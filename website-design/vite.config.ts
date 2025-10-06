@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [tailwindcss(), react()],
   preview: {
-    host: "0.0.0.0", // Make it accessible from external network
-    allowedHosts: ["chhengcoke.koompi.cloud", "localhost", "0.0.0.0"], // Allow these hosts
+    host: "0.0.0.0",
+    allowedHosts: true, // ✅ allow all hosts
   },
 });
