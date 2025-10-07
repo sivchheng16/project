@@ -1,5 +1,8 @@
 @import "tailwindcss";
-
+body{
+  margin:0 auto;
+  padding:0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -11,7 +14,7 @@ html {
   @apply hover:text-blue-500 w-fit p-1 rounded-[8px];
 }
 .logo {
-  @apply font-bold text-xl md:text-3xl md:pr-5 text-start pl-3 py-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl;
+  @apply font-bold text-xl md:text-3xl md:pr-5 text-start pl-33 py-5 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl;
 }
 
 /* hero style */

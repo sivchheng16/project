@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div
       className="bg-gradient-to-r pt-2
-     from-indigo-500 to-violet-700 text-white text-center items-center px-3 mt-[64px] md:mt-[82px] md:block md:py-32 py-10 lg:py-10 lg:mt-[95px] lg:h-full "
+     from-indigo-500 to-violet-700 text-white text-center items-center px-3 lg:pt-30 md:block md:py-32 py-10 lg:py-10  lg:h-full "
       id="hero"
     >
       <div className="container mx-auto ">
