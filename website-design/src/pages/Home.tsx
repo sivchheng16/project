@@ -1,9 +1,9 @@
-import Header from "./Header";
-import About from "./about/About";
-import Hero from "./hero/Hero";
-import Service from "./service/Service";
+import Header from "./Navbar";
+import About from "./About";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
+import Hero from "./Hero";
+import Service from "./Service";
 
 export default function Home() {
   return (

@@ -7,18 +7,6 @@ import "./index.css";
 // import Portfolio from "./pages/Portfolio.js";
 // import Footer from "./pages/Footer.js";
 // import Hero from "./pages/hero/Hero.js";
-import { BrowserRouter } from "react-router-dom";
 import App from "./App.js";
 
-createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
-    {/* <Nav /> */}
-    {/* <Header />
-    <Hero />
-    <About />
-    <Service />
-    <Portfolio />
-    <Footer /> */}
-    <App />
-  </BrowserRouter>
-);
+createRoot(document.getElementById("root")!).render(<App />);

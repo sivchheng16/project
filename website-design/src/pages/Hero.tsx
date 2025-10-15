@@ -1,5 +1,5 @@
 // import Button from "../../component/Button";
-import Card from "./Card";
+import Card from "../component/HeroCard";
 let decriptionHero =
   " We create stunning, hight-performace websites and applications that drive results. Transform your digital presence with our expert design and development services.";
 

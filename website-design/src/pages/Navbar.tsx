@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { X } from "lucide-react";
 
-export default function Header() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggleMenu() {
@@ -13,7 +13,7 @@ export default function Header() {
     setIsOpen(false);
   }
   return (
-    <div className="w-full fixed bg-white z-100  ">
+    <div className="w-full fixed overflow-hidden bg-transparent z-100  ">
       <div className="grid grid-cols-2   md:grid-cols-3 lg:grid-cols-3 items-center text-center md:flex md:justify-around lg:h-25 container mx-auto ">
         <Link className="logo" to="/">
           WebCambodia

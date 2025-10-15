@@ -1,4 +1,4 @@
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "../component/service/ServiceCard";
 
 function Service() {
   return (

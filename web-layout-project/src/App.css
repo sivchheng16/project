@@ -1,9 +1,9 @@
 @import "tailwindcss";
-*{
+* {
   @apply font-extralight;
 }
 body {
-  @apply bg-[#BBFCFC];
+  @apply bg-[#8FFAFA];
 }
 .height-spacing {
   padding-top: 40px;
