@@ -1,8 +1,8 @@
 function Portfolio() {
   return (
     <div className="grid grid-cols-1 gap-10 bg-gray-50 pb-15 " id="portfolio">
-      <div className="container mx-auto">
-        <div className="pt-10 text-center md:p-10">
+      <div className="container mx-auto ">
+        <div className="md:pt-25 text-center md:p-10">
           <h1 className="font-bold text-2xl p-5 md:text-4xl">Our Portfolio</h1>
           <p className=" text-gray-500 md:text-2xl">
             Explore some of our recent projects and success story

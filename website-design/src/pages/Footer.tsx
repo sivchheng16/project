@@ -1,10 +1,10 @@
 function Footer() {
   return (
     <div className="bg-gray-900 text-gray-400" id="contact">
-      <div className="grid grid-cols-1 md:grid-cols-5 pt-5 pb-10  container mx-auto">
+      <div className="md:grid grid-cols-1 md:grid-cols-5 pt-5 pb-10  container mx-auto justify-center text-center md:text-start">
         <div className="col-span-2">
-          <div className="text-center md:text-start ">
-            <h1 className="logo">WebCambodia</h1>
+          <div className=" md:text-start text-center items-center justify-center">
+            <h1 className="logo2">WebCambodia</h1>
             <p className="text-sm p-5 md:py-5 md:pl-0">
               We specialize in creating exceptional digital experiences that
               drive business growth, enhance user engagement, and deliver

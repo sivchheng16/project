@@ -16,6 +16,9 @@ html {
 .logo {
   @apply font-bold text-xl md:text-3xl md:pr-5 pl-3 text-start py-3 lg:text-start md:text-start bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl;
 }
+.logo2 {
+  @apply font-bold text-xl md:text-3xl md:pr-5 pl-3 text-center py-3 lg:text-start md:text-start bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent cursor-pointer lg:text-4xl;
+}
 
 /* hero style */
 @layer components {
